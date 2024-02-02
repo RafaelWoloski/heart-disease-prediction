@@ -1,0 +1,10 @@
+name: mltools
+channels:
+  - defaults
+dependencies:
+  - cudatoolkit=10.2
+  - cudnn=7.6
+  - python==3.9
+  - pip:
+    - pip-tools
+prefix: /home/woloski/miniconda3/envs/mltools
